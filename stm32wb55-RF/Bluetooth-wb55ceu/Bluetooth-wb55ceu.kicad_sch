@@ -1615,174 +1615,6 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Crystal_GND23"
 			(pin_names
 				(offset 1.016) hide)
@@ -2018,6 +1850,259 @@
 				)
 				(pin passive line
 					(at 3.81 0 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -3650,6 +3735,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4954,12 +5141,6 @@
 		(uuid "7810be38-a7f2-4e09-826c-737d77f10f52")
 	)
 	(junction
-		(at 118.11 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dd6bbdf-2e31-46d4-a1c3-754b1eaeba36")
-	)
-	(junction
 		(at 184.15 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5014,12 +5195,6 @@
 		(uuid "9e99c780-7ce2-4945-901d-b68821bc8cd1")
 	)
 	(junction
-		(at 132.08 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a90bc68d-7262-49a4-9116-dcf3e0ccf981")
-	)
-	(junction
 		(at 119.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5054,6 +5229,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bed97fac-032d-4702-bc38-5183458f56bb")
+	)
+	(junction
+		(at 142.24 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32af0da-dcf6-45b4-9072-47fddd6914a6")
 	)
 	(junction
 		(at 240.03 110.49)
@@ -5150,6 +5331,10 @@
 		(uuid "42f1854a-8744-4464-84b7-e6ec3ee69d2a")
 	)
 	(no_connect
+		(at 139.7 124.46)
+		(uuid "4c33e3e9-68e4-4fdb-841c-029884ad6f6e")
+	)
+	(no_connect
 		(at 204.47 85.09)
 		(uuid "50194a22-aed9-4ae5-8844-59785430a1ae")
 	)
@@ -5172,6 +5357,10 @@
 	(no_connect
 		(at 204.47 135.89)
 		(uuid "aa61caba-ae9f-445a-8b11-b4586c1180b5")
+	)
+	(no_connect
+		(at 139.7 114.3)
+		(uuid "af14b6dc-45f4-4b26-be62-00761bc0b89f")
 	)
 	(no_connect
 		(at 161.29 105.41)
@@ -5339,16 +5528,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 118.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ebab9d-929f-4644-8bb8-bf9ca4e9ec75")
-	)
-	(wire
-		(pts
 			(xy 49.53 114.3) (xy 49.53 116.84)
 		)
 		(stroke
@@ -5376,6 +5555,16 @@
 			(type default)
 		)
 		(uuid "1461ad04-1673-496b-a62c-508a8118790e")
+	)
+	(wire
+		(pts
+			(xy 142.24 149.86) (xy 135.89 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c852e7-29e2-4191-bb99-c3eecbaad615")
 	)
 	(wire
 		(pts
@@ -5446,6 +5635,16 @@
 			(type default)
 		)
 		(uuid "19837be6-0f12-4743-9d4d-77a1ab4b7942")
+	)
+	(wire
+		(pts
+			(xy 142.24 162.56) (xy 142.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac1d8da-06f2-490a-b513-0ae254ead1f5")
 	)
 	(wire
 		(pts
@@ -5669,6 +5868,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 165.1) (xy 142.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323568e8-f7a6-49be-ad61-d3f6163de0af")
+	)
+	(wire
+		(pts
 			(xy 58.42 137.16) (xy 64.77 137.16)
 		)
 		(stroke
@@ -5676,16 +5885,6 @@
 			(type default)
 		)
 		(uuid "33df1e6c-202c-41fd-9540-cdba4375ab71")
-	)
-	(wire
-		(pts
-			(xy 139.7 124.46) (xy 125.73 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34428dbd-2a9f-4e57-9812-fa8ca1f91d63")
 	)
 	(wire
 		(pts
@@ -5729,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 158.75) (xy 152.4 158.75)
+			(xy 146.05 157.48) (xy 153.67 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5756,6 +5955,26 @@
 			(type default)
 		)
 		(uuid "3c5bad9c-9a7e-47c1-8385-ebab99b97838")
+	)
+	(wire
+		(pts
+			(xy 96.52 186.69) (xy 96.52 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de14a4e-9cf8-4ba9-a21c-7b5ef33f3996")
+	)
+	(wire
+		(pts
+			(xy 135.89 149.86) (xy 135.89 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee2ef16-d566-461b-a59f-334537dc50a6")
 	)
 	(wire
 		(pts
@@ -6119,13 +6338,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 135.89) (xy 132.08 135.89)
+			(xy 121.92 186.69) (xy 121.92 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68fa6ff6-59b2-4fe9-9d6d-3e7f77ee29ea")
+		(uuid "66431866-83c6-4efd-b488-01da561b75b4")
 	)
 	(wire
 		(pts
@@ -6189,6 +6408,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 186.69) (xy 113.03 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72132643-b110-46a5-b8a3-284e2deb6727")
+	)
+	(wire
+		(pts
 			(xy 181.61 66.04) (xy 184.15 66.04)
 		)
 		(stroke
@@ -6209,7 +6438,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 158.75) (xy 137.16 158.75)
+			(xy 132.08 157.48) (xy 138.43 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6489,16 +6718,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 118.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7e7a2b-7846-47e1-9332-2028a9b21af5")
-	)
-	(wire
-		(pts
 			(xy 30.48 49.53) (xy 44.45 49.53)
 		)
 		(stroke
@@ -6506,6 +6725,16 @@
 			(type default)
 		)
 		(uuid "9ad82377-971b-44c7-a6b3-2ef720eae201")
+	)
+	(wire
+		(pts
+			(xy 104.14 186.69) (xy 104.14 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf6302c-29e8-4e67-81bf-ad83fa326e43")
 	)
 	(wire
 		(pts
@@ -6536,16 +6765,6 @@
 			(type default)
 		)
 		(uuid "a35f504f-6608-45ef-ad64-2314ad4d6da1")
-	)
-	(wire
-		(pts
-			(xy 125.73 124.46) (xy 125.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3932173-d6fd-4352-8713-b4b40a27090c")
 	)
 	(wire
 		(pts
@@ -6586,6 +6805,16 @@
 			(type default)
 		)
 		(uuid "a6fec61c-45eb-406a-86cc-53cde4d3db3f")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72ab60f-b586-4a0e-8b1c-6ffd55915e2d")
 	)
 	(wire
 		(pts
@@ -6676,16 +6905,6 @@
 			(type default)
 		)
 		(uuid "afc710df-d317-4c62-82d2-723c28f774eb")
-	)
-	(wire
-		(pts
-			(xy 118.11 130.81) (xy 118.11 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09d4fe7-81ac-41b6-9bc7-7e735595fcc8")
 	)
 	(wire
 		(pts
@@ -6866,6 +7085,16 @@
 			(type default)
 		)
 		(uuid "c07effde-86b2-4760-ad21-ade285e82572")
+	)
+	(wire
+		(pts
+			(xy 142.24 152.4) (xy 142.24 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d1c675-09f2-4f4a-a8d4-f34086b881d6")
 	)
 	(wire
 		(pts
@@ -7179,16 +7408,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 118.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9f8113-5f9c-4b7a-932b-4f8a1e44daea")
-	)
-	(wire
-		(pts
 			(xy 245.11 50.8) (xy 254 50.8)
 		)
 		(stroke
@@ -7267,6 +7486,18 @@
 		)
 		(uuid "fb3397b5-08ea-4d89-a741-6661610bf60c")
 	)
+	(rectangle
+		(start 90.17 177.8)
+		(end 129.54 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6cb0a3a-ba09-4c57-a8ab-ab0a0f607d30)
+	)
 	(text "SWD Header"
 		(exclude_from_sim no)
 		(at 261.62 121.412 0)
@@ -7307,6 +7538,16 @@
 		)
 		(uuid "4686ae6d-5ce5-46a6-89b7-fc72f3d13dd5")
 	)
+	(text "Mounting Holes (M3)\n"
+		(exclude_from_sim no)
+		(at 108.966 173.736 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "674f3b03-fa77-40ee-aefa-c8c678401eab")
+	)
 	(text "5v to 3.3v LDO Regulator\n"
 		(exclude_from_sim no)
 		(at 44.196 28.702 0)
@@ -7329,7 +7570,7 @@
 	)
 	(text "LSE (32.768kHz) and HSE (12MHz) Crystals\n"
 		(exclude_from_sim no)
-		(at 138.176 147.066 0)
+		(at 139.446 145.796 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7356,6 +7597,26 @@
 			)
 		)
 		(uuid "ddb3cbb5-23b3-4ab9-9bf3-e728773ce082")
+	)
+	(label "D-"
+		(at 48.26 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1abe3714-5f86-49d9-9b3d-85b6033835b3")
+	)
+	(label "D+"
+		(at 48.26 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2646f404-466d-4197-a57f-20d29cb44bdd")
 	)
 	(label "RF_Match"
 		(at 50.8 168.91 180)
@@ -7601,7 +7862,7 @@
 	)
 	(global_label "OSC_OUT"
 		(shape input)
-		(at 152.4 158.75 0)
+		(at 153.67 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7611,7 +7872,7 @@
 		)
 		(uuid "762d3b94-88e1-4f58-bb51-51b831c7b577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.7914 158.75 0)
+			(at 165.0614 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +8126,7 @@
 	)
 	(global_label "OSC_IN"
 		(shape input)
-		(at 130.81 158.75 180)
+		(at 132.08 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7875,7 +8136,7 @@
 		)
 		(uuid "d8f72a54-b51c-4ffd-aaf9-ceccee8e8572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.1119 158.75 0)
+			(at 122.3819 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.43 24.13 0)
 			(effects
 				(font
@@ -8209,6 +8470,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 96.52 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a07dfa2-3c86-4f72-be0c-f77f3d19ae3d")
+		(property "Reference" "H1"
+			(at 99.06 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.06 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0b6eb72-aaf7-4b94-8258-b99e74d59ca7")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 255.27 66.04 270)
 		(unit 1)
@@ -8233,7 +8562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -8279,6 +8608,141 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10031b53-a849-47ae-968d-befe4739cdad")
+		(property "Reference" "#PWR029"
+			(at 113.03 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2edf2552-82b7-4514-8ba8-b16fddb14b2e")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 121.92 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "112969a2-3b48-4a88-9e93-612587b48c82")
+		(property "Reference" "H4"
+			(at 124.46 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 124.46 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4921e481-61c9-474a-8bf4-009dde0f8288")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8663,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 58.42 133.35 0)
 			(effects
 				(font
@@ -8989,6 +9453,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7ff565-b6df-44f8-b9ca-0545d8137f15")
+		(property "Reference" "#PWR028"
+			(at 104.14 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7150594-a90e-4d0f-9a5d-585a21790db9")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 254 54.61 0)
 		(unit 1)
@@ -9154,74 +9685,6 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 140.97 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "334d6bfc-4f2d-4ef9-ac7b-efaa5a369aed")
-		(property "Reference" "Y2"
-			(at 140.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 140.97 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e28e044-917e-438e-9169-c22d7917bfdc")
-		)
-		(pin "1"
-			(uuid "7d613457-eccb-4a24-8f77-28630e7e4f95")
-		)
-		(instances
-			(project ""
-				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -9425,6 +9888,73 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3abbbcfa-b053-410d-ba4d-035274d0bc01")
+		(property "Reference" "#PWR027"
+			(at 96.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17410bae-8f84-4bf3-8e11-6f49c09ed33d")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9775,6 +10305,72 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "546fdaf7-45f5-4d6a-a9c8-a714da12f3dc")
+		(property "Reference" "#PWR011"
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc27c77-06f4-4dba-ace4-8aa06f44d991")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10467,7 +11063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 254 142.24 0)
 			(effects
 				(font
@@ -10813,7 +11409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -11275,6 +11871,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92bf819b-80da-4fd1-8a83-ae12cfb4858b")
+		(property "Reference" "#PWR030"
+			(at 121.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3a6b8b1-e902-4893-9c3a-33e8dd1e82da")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 255.27 68.58 270)
 		(unit 1)
@@ -11299,7 +11962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 255.27 68.58 0)
 			(effects
 				(font
@@ -11345,6 +12008,74 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 113.03 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99757a2a-f8b9-46a1-a10c-60e52ecda8e7")
+		(property "Reference" "H3"
+			(at 115.57 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 115.57 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 113.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 113.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af10ebbc-cd86-4566-8767-97e7f9699952")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11478,6 +12209,74 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 104.14 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5bd5add-5995-4957-9129-c17a7ecc6db0")
+		(property "Reference" "H2"
+			(at 106.68 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.68 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 104.14 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 104.14 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cc0add2-14b2-40fc-a017-5ae11f465888")
+		)
+		(instances
+			(project "Bluetooth-wb55ceu"
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12723,6 +13522,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 142.24 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "decdbd81-bdfc-40be-be15-be77e3651820")
+		(property "Reference" "Y2"
+			(at 149.86 151.1614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 149.86 153.7014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "744cddb7-5144-4962-a010-7993094992f2")
+		)
+		(pin "2"
+			(uuid "c2884e57-4fef-46ff-ab5e-081a65277262")
+		)
+		(pin "1"
+			(uuid "42c51a24-3a09-483c-9cb1-0ffa3b119228")
+		)
+		(pin "4"
+			(uuid "297c8693-b116-4cad-8277-372be8783561")
+		)
+		(instances
+			(project ""
+				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 64.77 133.35 180)
 		(unit 1)
@@ -12747,7 +13620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 64.77 133.35 0)
 			(effects
 				(font
@@ -12992,75 +13865,6 @@
 			(project "Bluetooth-wb55ceu"
 				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 118.11 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef74395b-421d-4fa5-9d81-8f847e73c73b")
-		(property "Reference" "SW2"
-			(at 121.158 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 120.142 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 118.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b3aad6a-40ac-4cd1-af1b-e611c36f7319")
-		)
-		(pin "1"
-			(uuid "b989bc6f-31c8-4369-8e6a-eee5c562d8ea")
-		)
-		(instances
-			(project ""
-				(path "/ec0019ed-8b70-4ca0-be59-8ac686518d2c"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
