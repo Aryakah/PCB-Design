@@ -21,5 +21,5 @@ Im working on both Kicad and Altium projects, be sure you are pulling the right 
 ![NRF24l01](https://github.com/user-attachments/assets/34e8281d-69ff-444c-b559-8aab997a372f)
 
 
-5 - ESP32_S3_N_1 basiert Design (Smartbus Projekt)  
+5 - ESP32_S3 basiert Design (Smartbus Projekt)  
 ![Screenshot from 2025-07-02 21-15-39](https://github.com/user-attachments/assets/318aaa25-e77e-4cd5-a5b3-87264df702a0)
