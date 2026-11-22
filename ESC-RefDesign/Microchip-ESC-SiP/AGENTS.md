@@ -72,6 +72,19 @@ The `esc-orchestrator` is the coordinator. For every cycle it must:
 9. Update all three progress files with evidence and percentage status.
 10. Start the next achievable task without asking the user to continue.
 
+### No-interaction execution policy
+
+The workflow runs autonomously. Do not ask the user questions, request
+confirmation, or stop for ordinary implementation decisions. Make reasonable
+technical decisions only when supported by the reference PDF, authoritative
+datasheets, or verified manufacturer documentation.
+
+When blocked, first investigate alternative legitimate sources, formats,
+conversion methods, and local evidence. Stop only after documenting a genuine
+external blocker that cannot be resolved in the environment. Never use the
+no-interaction policy as permission to guess, fabricate, substitute, or alter
+the reference design.
+
 If an external blocker prevents progress, record it precisely and continue
 with independent achievable work. Do not claim completion while blockers or
 unverified connections remain.
@@ -100,5 +113,8 @@ Completion requires all four sheets to be faithful and saved, exact verified
 symbols/libraries installed project-locally, U9A/U9B/U9C represented as one
 physical U9, all references/values/pins/nets verified, inter-sheet wiring
 verified, ERC and netlists clean or explicitly justified, and all progress
-files updated. If any criterion is blocked, report the blocker rather than
-claiming completion.
+files updated. The final review must include visual comparison against the
+reference PDF and a final verification report documenting every remaining
+difference or limitation. ERC passing alone is never sufficient. If any
+criterion is externally blocked, report the exact blocker rather than claiming
+completion.
