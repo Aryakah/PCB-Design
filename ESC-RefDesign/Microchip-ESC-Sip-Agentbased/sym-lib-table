@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "dsPIC33CDVC256MP506") (type "KiCad") (uri "/home/molla/Desktop/Main/Kicad/PCB-Design/ESC-RefDesign/Libraries/Symbols/") (options "") (descr ""))
+)

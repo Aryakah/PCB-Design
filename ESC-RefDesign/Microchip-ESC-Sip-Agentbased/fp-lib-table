@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "dsPIC33CDVC256MP506-Footprint") (type "KiCad") (uri "/home/molla/Desktop/Main/Kicad/PCB-Design/ESC-RefDesign/Libraries/Footprints/dsPIC33CDVC256MP506_footprints.pretty") (options "") (descr ""))
+)
